@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TUGAS 14-1</title>
+</head>
+<body>
+
+  <h1>Form Element</h1>
+
+  <form>
+    <p><input type="text" placeholder="Nama" required></p>
+
+    <p><input type="text" placeholder="Cita-Cita" required
+         oninvalid="this.setCustomValidity('Cita-cita Mohon disini')"
+         oninput="this.setCustomValidity('')"></p>
+
+    <p><input type="text" placeholder="NO HP" required></p>
+
+    <p><textarea placeholder="Alamat" cols="80" rows="8" required></textarea></p>
+
+    <p><button type="submit">Simpan</button></p>
+  </form>
+
+  <p>Semoga ilmu yang dipelajari berkah - Tugas 14-1</p>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tugas Iframe</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h1 { text-align: center; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .kotak h3 { margin: 0 0 6px; }
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: 1px solid #999;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tugas Iframe</h1>
+
+  <div class="grid">
+    <div class="kotak">
+      <h3>Iframe 1</h3>
+      <iframe src="https://www.detik.com" title="Detik"></iframe>
+    </div>
+
+    <div class="kotak">
+      <h3>Iframe 2</h3>
+      <iframe src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" title="PDF"></iframe>
+    </div>
+
+    <div class="kotak">
+      <h3>Iframe 3</h3>
+      <iframe src="https://www.youtube.com/embed/Z1BCujX3pw8"
+              title="YouTube" allowfullscreen></iframe>
+    </div>
+
+    <div class="kotak">
+      <h3>Iframe 4</h3>
+      <iframe src="https://goo.gl/maps/5aXHLpbejRA2" title="Maps"></iframe>
+    </div>
+  </div>
+</body>
+</html>
